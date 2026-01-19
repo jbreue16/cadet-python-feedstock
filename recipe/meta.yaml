@@ -1,5 +1,5 @@
 {% set name = "CADET-Python" %}
-{% set version = "1.1.1" %}
+{% set version = "1.1.2" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/cadet/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: d28b8919684a8536d8d20169320ef9b907ad83f12693d1a8611efd6fa3e44d84
+  sha256: a929c39154b381416bbe4866929f68ae65fea0a0f9a3d83f85b4d618757c6bbd
 
 build:
   noarch: python
